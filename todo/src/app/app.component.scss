@@ -1,0 +1,123 @@
+
+.todoitem-container{
+    margin: auto;    
+    width: 900px;
+
+
+    .header{
+        color: black;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-weight: 900;
+        text-shadow: -1px 0 black,
+            0 1px black, 1px 0 black,
+            0 -1px black, -1px -1px black,
+            1px 1px black, -1px 1px black,
+            1px -1px black;
+        font-size: 40px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+    .plus{
+        position: absolute;
+        margin-left: 840px;
+        font-size: 30px;
+        background-color: #007BF9;
+        width: 60px;
+        height: 60px;
+        color: white;
+        text-align: center;
+        padding: auto;
+        border-radius: 5px;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+    .plus:hover {
+        background-color: #0052a5
+    }
+
+    .plus:active{
+        scale: (0.7);
+    }
+    input[type=text] {
+        height: 60px;
+        width: 800px;
+        box-sizing: border-box;
+        border: 2px outset;
+        border-radius: 6px;
+        font-size: 16px;
+        background-color: white;
+        background-repeat: no-repeat;
+        display: flex;
+        margin-left: 40px;
+    }
+    
+    input::placeholder{
+        font-weight: 900;
+        font-family: 'Montserrat';
+    }
+
+    .items{
+        font-family: 'Montserrat';
+        font-size: 25px;  
+    }
+    .list{
+        list-style-type: none;
+        border-bottom: 1px solid;
+        margin-top: 14px;
+        margin-bottom: 14px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .item{
+        width: 200px;
+    }
+    .btn-check{
+        background-color: #26A13F;
+        height: 40px;
+        width: 40px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        transition: all 0.3s ease;
+    }
+    .btn-check:hover{
+        opacity: 70%;
+    }
+    .btn-check:active{
+        scale: (0.7);
+    }
+    .btn-del{
+        background-color: red;
+        height: 40px;
+        width: 40px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        transition: all 0.3s ease;
+        margin-left: 5px;
+    }
+    .btn-del:hover{
+        opacity: 70%;
+    }
+    
+    .btn-del:active{
+        scale: (0.7);
+    }
+    .flex{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .flex2{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .flex {float:left;}
+    
+}
+
+
